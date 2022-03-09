@@ -13,7 +13,7 @@ const initdb = async () =>
   });
 
 // Add received content to DB
-export const addDB = async (content) => { 
+export const putDb = async (content) => { 
 	const jateDb = await openDB('jate', 1);
 	const request = store.put({ id: 1, value: content });
 	const result = await request;
@@ -22,7 +22,7 @@ export const addDB = async (content) => {
 	console.log('Added received content', result);
 };
 // Obtain content from DB
-export const fetchDB = async () => {
+export const getDb = async () => {
 	const jateDb = await openDB('jate', 1);
 	const request = store.get(1);
 	const result = await request;
