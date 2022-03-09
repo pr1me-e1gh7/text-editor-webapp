@@ -2,9 +2,10 @@
 ## 👨‍💻 Mission
 Build a text editor that runs in the browser to create notes or code snippets with or without an internet connection so that I can reliably retrieve them for later use.
 ## 🌐 Application
-Application deployment goes here
+<a href="https://dc-texteditorapp.herokuapp.com/">Link to the App</a>
+
 ## 💻 User Experience
-Explain everything in the project
+When the user loads the page they will be presented with the text editor default header under the title bar that includes an Install button. When the user enters text into the application, it will be saved into storage, so that when they exit and/or reload the page the content will appear again, right where the user left it. When the user clicks on the Install button, they will be able to download the application to their PC.
 ## 🏁 Challenge Criteria
 ```md
 GIVEN a text editor web application
@@ -34,4 +35,4 @@ WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 ```
 ## 🎨 Preview
-GIF or MP4 preview of project goes here
+<img src="./media/fullwalkthrough.gif>
