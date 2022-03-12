@@ -1,7 +1,7 @@
 import { openDB } from 'idb';
 
 // Database generated
-const initdb = async () =>
+const DBinit = async () =>
 	openDB('jate', 1, {
 		upgrade(db) {
 			if (db.objectStoreNames.contains('jate')) {
@@ -37,4 +37,4 @@ export const getDb = async (e) => {
 	return result?.value;
 };
 
-initdb();
+DBinit();

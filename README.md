@@ -35,4 +35,4 @@ WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 ```
 ## 🎨 Preview
-<img src="./media/fullwalkthrough.gif>
+<img src="./media/fullwalkthrough.gif">
